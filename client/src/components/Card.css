@@ -1,0 +1,131 @@
+.card {
+  border: 2px solid #444;
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dishes-list {
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dish-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.dish-item:last-child {
+  border-bottom: none;
+}
+
+.delete-button {
+  background-color: #d32f2f;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.delete-menu-button {
+  background-color: #c62828;
+}
+
+.delete-button:hover,  .delete-menu-button:hover, .delete-menu-button:hover {
+  background-color: #b71c1c;
+}
+
+.add-dish-form {
+  margin-bottom: 15px;
+  padding: 15px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.add-button {
+  background-color: #1976d2;
+  color: #fff;
+  border: none;
+  padding: 10px 25px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.add-button:hover {
+  background-color: #15c015;
+}
+
+.delete-TrainingAndExercise-button {
+  background-color: #d32f2f; /* Default red color */
+  color: #fff;
+  border: none;
+  padding: 10px 25px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.delete-TrainingAndExercise-button:hover {
+  background-color: #b71c1c; /* Darker red when hovered */
+}
+
+/* General styles for the buttons */
+.action-button {
+  font-weight: bold;
+  padding: 6px 12px;
+  text-transform: none; /* Keep the text in the original case */
+  color: white; /* Make the text white */
+  border-radius: 5px;
+  text-align: center; /* Ensure the text is centered */
+}
+
+/* Style for the "Удалить" (Delete) button */
+.delete-button {
+  background-color: #d32f2f; /* Red background */
+  border: none;
+}
+
+/* Style for the "Переместить" (Move) button */
+.move-button {
+  background-color: #1976d2; /* Blue background */
+  border: none;
+  margin-left: 8px; /* Adds space between the two buttons */
+}
+
+/* Hover effect for the delete button */
+.delete-button:hover {
+  background-color: #b71c1c; /* Darker red when hovered */
+}
+
+/* Hover effect for the move button */
+.move-button:hover {
+  background-color: #1565c0; /* Darker blue when hovered */
+}
+
+/* Active effect for the delete button */
+.delete-button:active {
+  background-color: #9a1e1e; /* Slightly darker red when clicked */
+}
+
+/* Active effect for the move button */
+.move-button:active {
+  background-color: #0d47a1; /* Slightly darker blue when clicked */
+}
+
+
+
+
